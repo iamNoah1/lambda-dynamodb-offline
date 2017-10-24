@@ -24,7 +24,3 @@ This is an example of creating, deploying and invoking of AWS Lambda Functions w
 ## Undeploy
 
 * `serverless remove`
-
-## Known Problems
-
-* redeploy will throw an error, because table already exists. Right now I have no better solution that go to the AWS console UI and delete the table manually.
