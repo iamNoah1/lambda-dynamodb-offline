@@ -1,5 +1,5 @@
 # Lambda + DynamoDB
-This is an example of creating, deploying and invoking of AWS Lambda Functions which connect to a DynamoDB and get exposed through an AWS API Gateway in order to read and write data from and to the DynamoDB
+This is an example of creating, deploying and invoking of AWS Lambda Functions which connect to a DynamoDB and get exposed through an AWS API Gateway in order to read and write data from and to the DynamoDB which is also supported for offline mode.
 
 
 ## Prerequisites
