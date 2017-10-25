@@ -8,6 +8,12 @@ This is an example of creating, deploying and invoking of AWS Lambda Functions w
 * You need to install Node.js  with a minimum version of 6.5.0 
 * Then you need to install the serverless CLI with `sudo npm install -g serverless`
 * `npm install`
+* `serverless dynamodb install`
+
+
+## Start locally
+
+* `serverless offline start `
 
 
 ## Deploy
@@ -18,7 +24,7 @@ This is an example of creating, deploying and invoking of AWS Lambda Functions w
 ## Test
 
 * Write: `curl -H "Content-Type: application/json" -X POST -d '{"text":"blablabalbla"}' <url>`
-* Read: `curl https://3z0atjqhu5.execute-api.eu-west-1.amazonaws.com/dev/todos`
+* Read: `curl <url>`
 
 
 ## Undeploy

@@ -1,5 +1,4 @@
-const AWS = require('aws-sdk')
-const dynamoDb = new AWS.DynamoDB.DocumentClient()
+const dynamoDb = require('./dynamodb')
 
 const uuid = require('uuid')
 
