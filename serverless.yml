@@ -156,5 +156,3 @@ custom:
       port: 8000
       inMemory: true
       migrate: true
-    migration:
-      dir: offline/migrations
