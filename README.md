@@ -13,6 +13,7 @@ This is an example of creating, deploying and invoking of AWS Lambda Functions w
 
 ## Start locally
 
+* **NOTE**: You need to have a Java Runtime installed for DynamoDB to work locally
 * `serverless offline start `
 
 
@@ -25,6 +26,7 @@ This is an example of creating, deploying and invoking of AWS Lambda Functions w
 
 * Write: `curl -H "Content-Type: application/json" -X POST -d '{"text":"blablabalbla"}' <url>`
 * Read: `curl <url>`
+* If you run it locally the url is: http://localhost:3000/todos
 
 
 ## Undeploy
